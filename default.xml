@@ -596,5 +596,4 @@
   <project path="vendor/cm" name="ResurrectionRemix/android_vendor_resurrection" remote="github" revision="lollipop5.1"/> 
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
-  <project path="packages/apps/CMFileManager" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_CMFileManager" />
 </manifest>
