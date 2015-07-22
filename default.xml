@@ -25,7 +25,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="ResurrectionRemix/platform_manifest" remote="github" revision="lollipop5.1" >
+  <project path="android" name="Hybrid-power/startsync" remote="github" revision="HP5.1" >
   <copyfile src="build.sh" dest="build-rr.sh" />
   </project>
 
@@ -338,7 +338,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="ResurrectionRemix/android_frameworks_base" remote="github" revision="lollipop5.1" />
+  <project path="frameworks/base" name="Hybrid-Power/android_frameworks_base" remote="github" revision="HP5.1" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -477,7 +477,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="ResurrectionRemix/Resurrection_packages_apps_Settings" remote="github" revision="lollipop5.1"/>
+  <project path="packages/apps/Settings" name="Hybrid-Power/packages_apps_Settings" remote="github" revision="HP5.1"/>
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
