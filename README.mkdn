@@ -1,22 +1,19 @@
-Resurrection Remix Lollipop Source 2015 
+Hybrid Power Lollipop Source 2015 
 ===================
-
-
-[Join the Resurrection Remix Team](http://forum.resurrectionremix.com/index.php?topic=2037.new#new)
 
 Getting Started
 ---------------
-To get started with building from Resurrection Remix sources, you'll need to get
+To get started with building from Hybrid Power sources, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
-How To Build Resurrection Remix ROM for your device - Tutorial
+How To Build Hybrid Power ROM for your device - Tutorial
 --------
-### New Way to set up and build Resurrection Remix.
+### New Way to set up and build Hybrid Power.
 
 ##### Simply copy and paste this in a terminal window:
 
      $ git clone https://github.com/Hybrid-power/startsync.git
-     $ cd ~/platform_manifest
+     $ cd ~/startsync
      $ ./setup.sh
 
 Once done, the source code should be already set up and you can head on to build RR by using the RR Wizard which is located in the same folder so simply copy and paste this in a terminal window:
@@ -25,7 +22,7 @@ Once done, the source code should be already set up and you can head on to build
 
 ---
 
-### Old Way to set up and build Resurrection Remix.
+### Old Way to set up and build Hybrid Power.
 
 ### Build Environment
 
@@ -82,12 +79,12 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
 ##### Initializing the RR repo and downloading the manifest
 
-      $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b lollipop5.1
+      $  repo init -u https://github.com/Hybrid-power/startsync.git -b HP5.1
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is about 13GB+]
 
-      $  repo sync -j 16
+      $  repo sync -j8
 
 ###Building the Resurrection Remix ROM
 - Preparing Required Binaries and Device Drivers
@@ -110,24 +107,3 @@ Congratulations on the succesfull build initialization! Now, we shall go ahead a
 
      -M 50G
 The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
-
-##### To build Resurrection Remix ROM
-
-      $ cd ~/RR
-      $ . build/envsetup.sh && brunch <device>
-
-##### Obtaining the zip created from the build process
-To get the zip file that has been built, navigate to the following directory and find for the zip file:
-
-      $ cd ~/RR/out/target/product/<devicename>/
-
-If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following to make sure your next build is clean;
-
-      $ cd ~/RR
-      $ make clean
-      $ repo sync -j 16
-
-After doing so, redo everything stated from the Building Section.
-
-##### For those who successfully built Resurrection Remix
-Well, Congratulations on your victory! Now, you have a .zip file that flashable to your device! Share it to the internet as you wish but be sure to contribute back and also give credits to the Resurrection Remix Team and its contributors! Do come and build Resurrection Remix another time as new code is improved upon after time. If you wish to contibute, feel free to make a pull request to the Ressurection Remix Team! See you again builder!
