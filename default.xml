@@ -319,6 +319,7 @@
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" />
+  <project path="external/suda/SudaSDKs" remote="suda" revision="sm-1.1" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs" />
@@ -458,7 +459,6 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <!-- <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" /> -->
-  <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMFileManager" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_SudaLauncher" />
   <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
@@ -467,13 +467,10 @@
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_InCallUI" /> 
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
-  <project path="packages/apps/LockClock" name="ResurrectionRemix/android_packages_apps_LockClock" revision="lollipop5.1"/>
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
   <project path="packages/apps/Mms" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Mms-caf" /> 
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
@@ -491,8 +488,6 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/ThemeChooser" name="ResurrectionRemix/android_packages_apps_ThemeChooser" revision="lollipop5.1"/>
-  <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
-  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="Euphoria-OS/android_packages_inputmethods_LatinIME" remote="github" revision="lollipop-5.1"/>
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
@@ -501,6 +496,7 @@
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
+  <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" /> 
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" />
