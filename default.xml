@@ -319,7 +319,6 @@
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/suda/SudaSDKs" remote="suda" revision="sm-1.1" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs" />
